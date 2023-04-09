@@ -2,6 +2,8 @@ import React from 'react'
 import './checkout.css'
 import Product from './Product'
 const Checkout = (props) => {
+
+
   return (
     <div className='checkout'>
       <h1>Checkout</h1>
@@ -18,9 +20,7 @@ const Checkout = (props) => {
                 <h3>{product.name}</h3>
                 <h5>{product.price} PKR</h5>
                 <div className='product-btn'>
-                  {/* <button onClick={removeProductToCart}>-</button> */}
                   <p>{product.quantity}</p>
-                  {/* <button onClick={addProductToCart}>+</button> */}
                 </div>
               </div>
             </div>

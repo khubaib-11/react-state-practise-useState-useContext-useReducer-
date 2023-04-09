@@ -1,10 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './product.css'
 
 const Product = ({ product, setTotalCartItemsQuantity, setCart, cart, setTotalBill }) => {
 
   const currentProduct = { ...product };
-
   // Function to add product to cart
   const addProductToCart = () => {
     // Increase the quantity of product by 1
